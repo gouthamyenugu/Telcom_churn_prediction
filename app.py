@@ -1,8 +1,7 @@
 # Import necessary libraries
 import pickle
 import streamlit as st
-import sklearn
-import xgboost
+from xgboost import XGBClassifier
 # Load the trained model
 pickle_in = open('Telco churn_XGB.pkl', 'rb')
 classifier = pickle.load(pickle_in)
