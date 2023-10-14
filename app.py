@@ -2,7 +2,7 @@
 import pickle
 import streamlit as st
 from xgboost import XGBClassifier
-import scikit-learn==0.24.2
+import sklearn
 
 # Load the trained model
 pickle_in = open('Telco churn_XGB.pkl', 'rb')
